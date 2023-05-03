@@ -20,10 +20,10 @@ hostname = www.i3zh.com
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
-chxm1023.interstitialAdId = "";
 chxm1023.listAdId = "";
 chxm1023.videoAdId = "";
-chxm1023.excitationAd = 0;
-chxm1023.detailAd = 0;
+chxm1023.interstitialAdId = "";
+chxm1023.excitationAd = "0";
+chxm1023.detailAd = "0";
 
 $done({body : JSON.stringify(chxm1023)});
