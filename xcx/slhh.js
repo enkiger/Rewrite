@@ -20,11 +20,6 @@ hostname = www.i3zh.com
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
-chxm1023.enable_detail_interstitial_ad = 0;
-chxm1023.enable_index_interstitial_ad = 0;
-chxm1023.enable_list_interstitial_ad = 0;
-chxm1023.enable_hot_interstitial_ad = 0;
-chxm1023.enable_topic_interstitial_ad = 0;
 chxm1023.interstitialAdId = "";
 chxm1023.listAdId = "";
 chxm1023.videoAdId = "";
