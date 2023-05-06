@@ -16,4 +16,4 @@ hostname = app.yiyan.art
 
 *************************************/
 
-var chxm1023 = $response.body.replace(/viptype":"\d+"/g, 'viptype":"4"');$done({chxm1023});
+var chxm1023 = $response.body.replace(/viptype":"\d+"/g, 'viptype":"4"');$done(chxm1023);
