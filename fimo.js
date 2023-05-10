@@ -24,7 +24,7 @@ const vipb = '/fimo-user/apple/certificate';
 
 
 if ($request.url.indexOf(vipa) != -1){
-chxm1023.films = [
+  chxm1023.films = [
     {
       "goodId" : "fimoAesthetic400",
       "pay" : "sync",
@@ -71,12 +71,12 @@ chxm1023.films = [
       "goodName" : "LM Color 100"
     }
   ];
-chxm1023.subscribe = {
+  chxm1023.subscribe = {
     "valid" : true,
     "forever" : 1,
     "endTime" : 4092599349
   };
-chxm1023.filmsCommonOrder = [
+  chxm1023.filmsCommonOrder = [
     "fimoBlackTea50",
     "fimoDiary400",
     "fimoLMcolor100_w",
@@ -87,7 +87,7 @@ chxm1023.filmsCommonOrder = [
 }
 
 if ($request.url.indexOf(vipb) != -1){
-chxm1023= {
+  chxm1023= {
   "environment" : "Production",
   "receipt" : {
     "receipt_type" : "Production",
@@ -201,6 +201,5 @@ chxm1023= {
     }
   ]
 };}
-
 
 $done({body : JSON.stringify(chxm1023)});
